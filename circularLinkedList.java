@@ -71,7 +71,9 @@ class circular{
         }
         //single node
         if(curr.next==head){
-            head=null;
+            if(prev== null){
+            	head=null;
+            }
             }
         //first node
         else if (curr == head){
